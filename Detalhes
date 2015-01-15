@@ -3,7 +3,12 @@ Canhão:(Usar a flor como base para o desenho)
 	# Desenho do canhão.
 	# Disparo (Fumaça como rastro da abelha (2 - 5s).
 	# Recuo antes do disparo.
-	# Movimento do canhão(45º), movimento horizontal.
+	# Movimento do canhão(90º).
+	# Movimento horizontal.(Concluido)
+	# Base do canhão(Texturas - Madeira e pedra)
+	# Animação das rodas girando quando movimentar.
+	# Canhão dispara apois passar 5 segundo do inicio da partida.
+	
 Arvore:
 	# Desenhos: (Cajueiro, Mangueira, Coqueiro, Cajazeira, Catingueira, Ipê Amarelo, Bananeira.)
 	# Animação: Movimentação para as lareias de 3º.
