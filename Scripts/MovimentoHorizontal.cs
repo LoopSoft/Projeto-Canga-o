@@ -16,13 +16,13 @@ public class MovimentoHorizontal : MonoBehaviour {
   	  	if(Input.GetAxisRaw("Horizontal") > 0) 
   	  	{
 	    		transform.Translate(Vector2.right * Velocidade * Time.deltaTime);
-	    		transform.eulerAngles = new Vector2(0, 0); // movimento em diraçao ao angulo 0.
+	    		transform.eulerAngles = new Vector2(0, 0); // movimento em direçao ao angulo 0.
 	    	}
 	    	// Anda para a esquerda
 	    	if (Input.GetAxisRaw ("Horizontal") < 0) 
 	    	{
 	    		transform.Translate(Vector2.right * Velocidade * Time.deltaTime);
-	    		transform.eulerAngles = new Vector2(0,180); // movimento em diraçao ao angulo 180.
+	    		transform.eulerAngles = new Vector2(0,180); // movimento em direçao ao angulo 180.
 	  	}
 	}
 }
